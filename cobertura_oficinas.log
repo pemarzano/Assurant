@@ -1,0 +1,276 @@
+2025-06-17 13:07:12,045 - ERROR - ❌ Erro crítico ao carregar dados: Arquivo 'clientes.xlsx' não encontrado
+2025-06-17 13:08:12,358 - ERROR - ❌ Erro crítico ao carregar dados: Coluna obrigatória 'Latitude' não encontrada
+2025-06-17 13:09:19,929 - INFO - Processando raio de 10km...
+2025-06-17 13:09:19,938 - INFO - Clientes não cobertos encontrados: 833
+2025-06-17 13:09:45,498 - INFO - Processando raio de 15km...
+2025-06-17 13:09:45,518 - INFO - Clientes não cobertos encontrados: 669
+2025-06-17 13:09:51,239 - INFO - Processando raio de 20km...
+2025-06-17 13:09:51,253 - INFO - Clientes não cobertos encontrados: 651
+2025-06-17 13:09:54,983 - INFO - 
+🚀 Aplicação pronta! Acesse http://0.0.0.0:10000
+2025-06-17 13:09:55,063 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:10000
+ * Running on http://192.168.1.166:10000
+2025-06-17 13:09:55,064 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-17 13:10:36,034 - INFO - 127.0.0.1 - - [17/Jun/2025 13:10:36] "[32mGET / HTTP/1.1[0m" 302 -
+2025-06-17 13:10:36,067 - INFO - 127.0.0.1 - - [17/Jun/2025 13:10:36] "GET /login?next=/ HTTP/1.1" 200 -
+2025-06-17 13:10:36,114 - INFO - 127.0.0.1 - - [17/Jun/2025 13:10:36] "GET /static/logo2.png HTTP/1.1" 200 -
+2025-06-17 13:10:36,117 - INFO - 127.0.0.1 - - [17/Jun/2025 13:10:36] "GET /static/logo.png HTTP/1.1" 200 -
+2025-06-17 13:10:36,153 - INFO - 127.0.0.1 - - [17/Jun/2025 13:10:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-17 13:10:40,570 - INFO - 127.0.0.1 - - [17/Jun/2025 13:10:40] "[32mPOST /login?next=/ HTTP/1.1[0m" 302 -
+2025-06-17 13:10:40,588 - INFO - 127.0.0.1 - - [17/Jun/2025 13:10:40] "GET / HTTP/1.1" 200 -
+2025-06-17 13:10:40,632 - INFO - 127.0.0.1 - - [17/Jun/2025 13:10:40] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2025-06-17 13:10:40,633 - INFO - 127.0.0.1 - - [17/Jun/2025 13:10:40] "[36mGET /static/logo2.png HTTP/1.1[0m" 304 -
+2025-06-17 13:10:40,743 - INFO - Calculando cobertura para raio de 15 km
+2025-06-17 13:10:40,764 - INFO - 127.0.0.1 - - [17/Jun/2025 13:10:40] "GET /cobertura?raio=15 HTTP/1.1" 200 -
+2025-06-17 13:11:06,288 - INFO - Gerando sugestões para raio de 15km e distância mínima de 5km
+2025-06-17 13:11:06,290 - INFO - Usando dados pré-processados para raio de 15km.
+2025-06-17 13:11:06,308 - INFO - Sugestões geradas: 9 locais
+2025-06-17 13:11:06,311 - INFO - 127.0.0.1 - - [17/Jun/2025 13:11:06] "GET /sugerir_oficinas?raio=15 HTTP/1.1" 200 -
+2025-06-17 13:11:36,703 - INFO - 127.0.0.1 - - [17/Jun/2025 13:11:36] "GET /clientes_heatmap HTTP/1.1" 200 -
+2025-06-17 13:13:44,802 - INFO - Processando raio de 10km...
+2025-06-17 13:13:44,812 - INFO - Clientes não cobertos encontrados: 833
+2025-06-17 13:13:44,821 - INFO - Processando raio de 15km...
+2025-06-17 13:13:44,838 - INFO - Clientes não cobertos encontrados: 669
+2025-06-17 13:13:44,842 - INFO - Processando raio de 20km...
+2025-06-17 13:13:44,856 - INFO - Clientes não cobertos encontrados: 651
+2025-06-17 13:13:44,871 - INFO - 
+🚀 Aplicação pronta! Acesse http://0.0.0.0:10000
+2025-06-17 13:13:44,942 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:10000
+ * Running on http://192.168.1.166:10000
+2025-06-17 13:13:44,942 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-17 13:15:24,894 - INFO - 192.168.1.166 - - [17/Jun/2025 13:15:24] "[32mGET / HTTP/1.1[0m" 302 -
+2025-06-17 13:15:24,922 - INFO - 192.168.1.166 - - [17/Jun/2025 13:15:24] "GET /login?next=/ HTTP/1.1" 200 -
+2025-06-17 13:15:25,003 - INFO - 192.168.1.166 - - [17/Jun/2025 13:15:25] "GET /static/logo.png HTTP/1.1" 200 -
+2025-06-17 13:15:25,006 - INFO - 192.168.1.166 - - [17/Jun/2025 13:15:25] "GET /static/logo2.png HTTP/1.1" 200 -
+2025-06-17 13:15:25,051 - INFO - 192.168.1.166 - - [17/Jun/2025 13:15:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-17 13:15:32,954 - INFO - 192.168.1.166 - - [17/Jun/2025 13:15:32] "POST /login?next=/ HTTP/1.1" 200 -
+2025-06-17 13:15:32,985 - INFO - 192.168.1.166 - - [17/Jun/2025 13:15:32] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2025-06-17 13:15:33,011 - INFO - 192.168.1.166 - - [17/Jun/2025 13:15:33] "[36mGET /static/logo2.png HTTP/1.1[0m" 304 -
+2025-06-17 13:15:43,770 - INFO - 192.168.1.166 - - [17/Jun/2025 13:15:43] "GET /login?next=/ HTTP/1.1" 200 -
+2025-06-17 13:15:43,909 - INFO - 192.168.1.166 - - [17/Jun/2025 13:15:43] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2025-06-17 13:15:43,919 - INFO - 192.168.1.166 - - [17/Jun/2025 13:15:43] "[36mGET /static/logo2.png HTTP/1.1[0m" 304 -
+2025-06-17 13:15:49,010 - INFO - 192.168.1.166 - - [17/Jun/2025 13:15:49] "POST /login?next=/ HTTP/1.1" 200 -
+2025-06-17 13:15:49,051 - INFO - 192.168.1.166 - - [17/Jun/2025 13:15:49] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2025-06-17 13:15:49,070 - INFO - 192.168.1.166 - - [17/Jun/2025 13:15:49] "[36mGET /static/logo2.png HTTP/1.1[0m" 304 -
+2025-06-17 13:16:00,967 - INFO - 192.168.1.166 - - [17/Jun/2025 13:16:00] "[32mPOST /login?next=/ HTTP/1.1[0m" 302 -
+2025-06-17 13:16:01,012 - INFO - 192.168.1.166 - - [17/Jun/2025 13:16:01] "GET / HTTP/1.1" 200 -
+2025-06-17 13:16:01,070 - INFO - 192.168.1.166 - - [17/Jun/2025 13:16:01] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2025-06-17 13:16:01,078 - INFO - 192.168.1.166 - - [17/Jun/2025 13:16:01] "[36mGET /static/logo2.png HTTP/1.1[0m" 304 -
+2025-06-17 13:16:01,239 - INFO - Calculando cobertura para raio de 15 km
+2025-06-17 13:16:01,282 - INFO - 192.168.1.166 - - [17/Jun/2025 13:16:01] "GET /cobertura?raio=15 HTTP/1.1" 200 -
+2025-06-17 13:16:24,468 - INFO - Gerando sugestões para raio de 15km e distância mínima de 5km
+2025-06-17 13:16:24,469 - INFO - Usando dados pré-processados para raio de 15km.
+2025-06-17 13:16:24,487 - INFO - Sugestões geradas: 9 locais
+2025-06-17 13:16:24,490 - INFO - 192.168.1.166 - - [17/Jun/2025 13:16:24] "GET /sugerir_oficinas?raio=15 HTTP/1.1" 200 -
+2025-06-17 13:16:31,975 - INFO - 192.168.1.166 - - [17/Jun/2025 13:16:31] "GET /clientes_heatmap HTTP/1.1" 200 -
+2025-06-17 13:16:50,238 - INFO - Calculando cobertura para raio de 20 km
+2025-06-17 13:16:50,304 - INFO - 192.168.1.166 - - [17/Jun/2025 13:16:50] "GET /cobertura?raio=20 HTTP/1.1" 200 -
+2025-06-17 13:27:06,333 - INFO - 192.168.1.166 - - [17/Jun/2025 13:27:06] "[32mPOST /login?next=/ HTTP/1.1[0m" 302 -
+2025-06-17 13:27:06,394 - INFO - 192.168.1.166 - - [17/Jun/2025 13:27:06] "GET / HTTP/1.1" 200 -
+2025-06-17 13:27:06,456 - INFO - 192.168.1.166 - - [17/Jun/2025 13:27:06] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2025-06-17 13:27:06,458 - INFO - 192.168.1.166 - - [17/Jun/2025 13:27:06] "[36mGET /static/logo2.png HTTP/1.1[0m" 304 -
+2025-06-17 13:27:06,567 - INFO - Calculando cobertura para raio de 15 km
+2025-06-17 13:27:06,627 - INFO - 192.168.1.166 - - [17/Jun/2025 13:27:06] "GET /cobertura?raio=15 HTTP/1.1" 200 -
+2025-06-17 14:03:36,157 - INFO - Processando raio de 10km...
+2025-06-17 14:03:36,165 - INFO - Clientes não cobertos encontrados: 833
+2025-06-17 14:03:36,171 - INFO - Processando raio de 15km...
+2025-06-17 14:03:36,183 - INFO - Clientes não cobertos encontrados: 669
+2025-06-17 14:03:36,188 - INFO - Processando raio de 20km...
+2025-06-17 14:03:36,197 - INFO - Clientes não cobertos encontrados: 651
+2025-06-17 14:03:36,204 - INFO - 
+🚀 Aplicação pronta! Acesse http://0.0.0.0:10000
+2025-06-17 14:03:36,237 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:10000
+ * Running on http://192.168.1.166:10000
+2025-06-17 14:03:36,238 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-17 14:03:57,204 - INFO - 127.0.0.1 - - [17/Jun/2025 14:03:57] "GET / HTTP/1.1" 200 -
+2025-06-17 14:03:57,243 - INFO - 127.0.0.1 - - [17/Jun/2025 14:03:57] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2025-06-17 14:03:57,245 - INFO - 127.0.0.1 - - [17/Jun/2025 14:03:57] "GET /static/logo2.png HTTP/1.1" 200 -
+2025-06-17 14:03:57,354 - INFO - Calculando cobertura para raio de 15 km
+2025-06-17 14:03:57,389 - INFO - 127.0.0.1 - - [17/Jun/2025 14:03:57] "GET /cobertura?raio=15 HTTP/1.1" 200 -
+2025-06-17 14:03:58,516 - INFO - Gerando sugestões para raio de 15km e distância mínima de 5km
+2025-06-17 14:05:03,403 - INFO - 127.0.0.1 - - [17/Jun/2025 14:05:03] "GET /sugerir_oficinas?raio=15 HTTP/1.1" 200 -
+2025-06-17 14:07:13,440 - INFO - 127.0.0.1 - - [17/Jun/2025 14:07:13] "GET /clientes_heatmap HTTP/1.1" 200 -
+2025-06-17 14:24:07,272 - INFO - Processando raio de 10km...
+2025-06-17 14:24:07,311 - INFO - Clientes não cobertos encontrados: 833
+2025-06-17 14:24:33,305 - INFO - Processando raio de 15km...
+2025-06-17 14:24:33,334 - INFO - Clientes não cobertos encontrados: 669
+2025-06-17 14:24:39,010 - INFO - Processando raio de 20km...
+2025-06-17 14:24:39,041 - INFO - Clientes não cobertos encontrados: 651
+2025-06-17 14:24:42,872 - INFO - 
+🚀 Aplicação pronta! Acesse http://0.0.0.0:10000
+2025-06-17 14:24:42,944 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:10000
+ * Running on http://192.168.1.166:10000
+2025-06-17 14:24:42,944 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-17 14:24:59,788 - INFO - 127.0.0.1 - - [17/Jun/2025 14:24:59] "GET / HTTP/1.1" 200 -
+2025-06-17 14:24:59,815 - INFO - 127.0.0.1 - - [17/Jun/2025 14:24:59] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2025-06-17 14:24:59,819 - INFO - 127.0.0.1 - - [17/Jun/2025 14:24:59] "[36mGET /static/logo2.png HTTP/1.1[0m" 304 -
+2025-06-17 14:24:59,923 - INFO - Calculando cobertura para raio de 15 km
+2025-06-17 14:24:59,957 - INFO - 127.0.0.1 - - [17/Jun/2025 14:24:59] "GET /cobertura?raio=15 HTTP/1.1" 200 -
+2025-06-17 14:25:01,087 - INFO - Gerando sugestões para raio de 15km e distância mínima de 5km
+2025-06-17 14:26:06,216 - INFO - 127.0.0.1 - - [17/Jun/2025 14:26:06] "GET /sugerir_oficinas?raio=15 HTTP/1.1" 200 -
+2025-06-17 14:28:09,504 - INFO - Processando raio de 10km...
+2025-06-17 14:28:09,512 - INFO - Clientes não cobertos encontrados: 833
+2025-06-17 14:28:09,518 - INFO - Processando raio de 15km...
+2025-06-17 14:28:09,532 - INFO - Clientes não cobertos encontrados: 669
+2025-06-17 14:28:09,535 - INFO - Processando raio de 20km...
+2025-06-17 14:28:09,547 - INFO - Clientes não cobertos encontrados: 651
+2025-06-17 14:28:09,559 - INFO - 
+🚀 Aplicação pronta! Acesse http://0.0.0.0:10000
+2025-06-17 14:28:09,608 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:10000
+ * Running on http://192.168.1.166:10000
+2025-06-17 14:28:09,609 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-17 14:31:14,323 - INFO - 127.0.0.1 - - [17/Jun/2025 14:31:14] "GET / HTTP/1.1" 200 -
+2025-06-17 14:31:14,378 - INFO - 127.0.0.1 - - [17/Jun/2025 14:31:14] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2025-06-17 14:31:14,380 - INFO - 127.0.0.1 - - [17/Jun/2025 14:31:14] "[36mGET /static/logo2.png HTTP/1.1[0m" 304 -
+2025-06-17 14:31:14,467 - INFO - Calculando cobertura para raio de 15 km
+2025-06-17 14:31:14,497 - INFO - 127.0.0.1 - - [17/Jun/2025 14:31:14] "GET /cobertura?raio=15 HTTP/1.1" 200 -
+2025-06-17 14:31:16,004 - INFO - Gerando sugestões para raio de 15km e distância mínima de 5km
+2025-06-17 14:35:23,978 - INFO - 127.0.0.1 - - [17/Jun/2025 14:35:23] "GET /sugerir_oficinas?raio=15 HTTP/1.1" 200 -
+2025-06-17 14:37:35,720 - INFO - Calculando cobertura para raio de 10 km
+2025-06-17 14:37:35,762 - INFO - 127.0.0.1 - - [17/Jun/2025 14:37:35] "GET /cobertura?raio=10 HTTP/1.1" 200 -
+2025-06-17 14:37:36,667 - INFO - Gerando sugestões para raio de 10km e distância mínima de 5km
+2025-06-17 14:39:47,156 - INFO - 127.0.0.1 - - [17/Jun/2025 14:39:47] "GET /sugerir_oficinas?raio=10 HTTP/1.1" 200 -
+2025-06-17 14:51:03,809 - INFO - Processando raio de 5km...
+2025-06-17 14:51:32,161 - INFO - Processando raio de 10km...
+2025-06-17 14:51:37,588 - INFO - Processando raio de 15km...
+2025-06-17 14:51:41,481 - INFO - Processando raio de 20km...
+2025-06-17 14:51:43,372 - INFO - Processando raio de 25km...
+2025-06-17 14:51:45,170 - INFO - Processando raio de 30km...
+2025-06-17 14:51:45,214 - INFO - 
+🚀 Aplicação pronta! Acesse http://0.0.0.0:10000
+2025-06-17 14:51:45,262 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:10000
+ * Running on http://192.168.1.166:10000
+2025-06-17 14:51:45,263 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-17 14:52:20,477 - INFO - 127.0.0.1 - - [17/Jun/2025 14:52:20] "GET / HTTP/1.1" 200 -
+2025-06-17 14:52:20,519 - INFO - 127.0.0.1 - - [17/Jun/2025 14:52:20] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2025-06-17 14:52:20,522 - INFO - 127.0.0.1 - - [17/Jun/2025 14:52:20] "[36mGET /static/logo2.png HTTP/1.1[0m" 304 -
+2025-06-17 14:52:20,634 - INFO - Calculando cobertura para raio de 15 km
+2025-06-17 14:52:20,667 - INFO - 127.0.0.1 - - [17/Jun/2025 14:52:20] "GET /cobertura?raio=15 HTTP/1.1" 200 -
+2025-06-17 14:52:27,960 - INFO - 127.0.0.1 - - [17/Jun/2025 14:52:27] "GET /sugerir_oficinas?raio=15 HTTP/1.1" 200 -
+2025-06-17 14:52:37,987 - INFO - Calculando cobertura para raio de 10 km
+2025-06-17 14:52:38,064 - INFO - 127.0.0.1 - - [17/Jun/2025 14:52:38] "GET /cobertura?raio=10 HTTP/1.1" 200 -
+2025-06-17 14:52:42,897 - INFO - 127.0.0.1 - - [17/Jun/2025 14:52:42] "GET /sugerir_oficinas?raio=10 HTTP/1.1" 200 -
+2025-06-17 14:57:57,090 - INFO - Processando raio de 5km...
+2025-06-17 14:57:57,142 - INFO - Processando raio de 10km...
+2025-06-17 14:57:57,206 - INFO - Processando raio de 15km...
+2025-06-17 14:57:57,248 - INFO - Processando raio de 20km...
+2025-06-17 14:57:57,288 - INFO - Processando raio de 25km...
+2025-06-17 14:57:57,328 - INFO - Processando raio de 30km...
+2025-06-17 14:57:57,382 - INFO - 
+🚀 Aplicação pronta! Acesse http://0.0.0.0:10000
+2025-06-17 14:57:57,470 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:10000
+ * Running on http://192.168.1.166:10000
+2025-06-17 14:57:57,471 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-17 14:58:11,930 - INFO - 127.0.0.1 - - [17/Jun/2025 14:58:11] "GET / HTTP/1.1" 200 -
+2025-06-17 14:58:12,052 - INFO - 127.0.0.1 - - [17/Jun/2025 14:58:12] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2025-06-17 14:58:12,053 - INFO - 127.0.0.1 - - [17/Jun/2025 14:58:12] "[36mGET /static/logo2.png HTTP/1.1[0m" 304 -
+2025-06-17 14:58:12,189 - INFO - Calculando cobertura para raio de 15 km
+2025-06-17 14:58:12,251 - INFO - 127.0.0.1 - - [17/Jun/2025 14:58:12] "GET /cobertura?raio=15 HTTP/1.1" 200 -
+2025-06-17 14:58:13,457 - INFO - 127.0.0.1 - - [17/Jun/2025 14:58:13] "GET /sugerir_oficinas?raio=15 HTTP/1.1" 200 -
+2025-06-17 15:04:07,803 - INFO - Processando raio de 5km...
+2025-06-17 15:04:07,820 - INFO - Processando raio de 10km...
+2025-06-17 15:04:07,839 - INFO - Processando raio de 15km...
+2025-06-17 15:04:07,855 - INFO - Processando raio de 20km...
+2025-06-17 15:04:07,868 - INFO - Processando raio de 25km...
+2025-06-17 15:04:07,880 - INFO - Processando raio de 30km...
+2025-06-17 15:04:07,898 - INFO - 
+🚀 Aplicação pronta! Acesse http://0.0.0.0:10000
+2025-06-17 15:04:07,927 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:10000
+ * Running on http://192.168.1.166:10000
+2025-06-17 15:04:07,927 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-17 15:04:12,293 - INFO - 127.0.0.1 - - [17/Jun/2025 15:04:12] "GET / HTTP/1.1" 200 -
+2025-06-17 15:04:12,325 - INFO - 127.0.0.1 - - [17/Jun/2025 15:04:12] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2025-06-17 15:04:12,326 - INFO - 127.0.0.1 - - [17/Jun/2025 15:04:12] "[36mGET /static/logo2.png HTTP/1.1[0m" 304 -
+2025-06-17 15:04:12,417 - INFO - Calculando cobertura para raio de 15 km
+2025-06-17 15:04:12,450 - INFO - 127.0.0.1 - - [17/Jun/2025 15:04:12] "GET /cobertura?raio=15 HTTP/1.1" 200 -
+2025-06-17 15:04:13,704 - INFO - 127.0.0.1 - - [17/Jun/2025 15:04:13] "GET /sugerir_oficinas?raio=15 HTTP/1.1" 200 -
+2025-06-17 15:05:29,338 - INFO - Processando raio de 5km...
+2025-06-17 15:05:29,368 - INFO - Processando raio de 10km...
+2025-06-17 15:05:29,395 - INFO - Processando raio de 15km...
+2025-06-17 15:05:29,410 - INFO - Processando raio de 20km...
+2025-06-17 15:05:29,432 - INFO - Processando raio de 25km...
+2025-06-17 15:05:29,447 - INFO - Processando raio de 30km...
+2025-06-17 15:05:29,474 - INFO - 
+🚀 Aplicação pronta! Acesse http://0.0.0.0:10000
+2025-06-17 15:05:29,515 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:10000
+ * Running on http://192.168.1.166:10000
+2025-06-17 15:05:29,516 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-17 15:05:57,785 - INFO - 127.0.0.1 - - [17/Jun/2025 15:05:57] "GET / HTTP/1.1" 200 -
+2025-06-17 15:05:57,842 - INFO - 127.0.0.1 - - [17/Jun/2025 15:05:57] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2025-06-17 15:05:57,842 - INFO - 127.0.0.1 - - [17/Jun/2025 15:05:57] "[36mGET /static/logo2.png HTTP/1.1[0m" 304 -
+2025-06-17 15:05:57,974 - INFO - Calculando cobertura para raio de 15 km
+2025-06-17 15:05:58,020 - INFO - 127.0.0.1 - - [17/Jun/2025 15:05:58] "GET /cobertura?raio=15 HTTP/1.1" 200 -
+2025-06-17 15:05:59,285 - INFO - 127.0.0.1 - - [17/Jun/2025 15:05:59] "GET /sugerir_oficinas?raio=15 HTTP/1.1" 200 -
+2025-06-17 15:08:08,777 - INFO - Processando raio de 5km...
+2025-06-17 15:08:25,954 - INFO - Processando raio de 10km...
+2025-06-17 15:08:27,821 - INFO - Processando raio de 15km...
+2025-06-17 15:08:33,483 - INFO - Processando raio de 20km...
+2025-06-17 15:08:37,373 - INFO - Processando raio de 25km...
+2025-06-17 15:08:37,412 - INFO - Processando raio de 30km...
+2025-06-17 15:08:40,997 - INFO - 
+🚀 Aplicação pronta! Acesse http://0.0.0.0:10000
+2025-06-17 15:08:41,011 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:10000
+ * Running on http://192.168.1.166:10000
+2025-06-17 15:08:41,012 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-17 15:08:50,020 - INFO - 127.0.0.1 - - [17/Jun/2025 15:08:50] "GET / HTTP/1.1" 200 -
+2025-06-17 15:08:50,052 - INFO - 127.0.0.1 - - [17/Jun/2025 15:08:50] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2025-06-17 15:08:50,053 - INFO - 127.0.0.1 - - [17/Jun/2025 15:08:50] "[36mGET /static/logo2.png HTTP/1.1[0m" 304 -
+2025-06-17 15:08:50,127 - INFO - Calculando cobertura para raio de 15 km
+2025-06-17 15:08:50,168 - INFO - 127.0.0.1 - - [17/Jun/2025 15:08:50] "GET /cobertura?raio=15 HTTP/1.1" 200 -
+2025-06-17 15:08:51,585 - INFO - 127.0.0.1 - - [17/Jun/2025 15:08:51] "GET /sugerir_oficinas?raio=15 HTTP/1.1" 200 -
+2025-06-17 15:08:59,757 - INFO - Calculando cobertura para raio de 10 km
+2025-06-17 15:08:59,806 - INFO - 127.0.0.1 - - [17/Jun/2025 15:08:59] "GET /cobertura?raio=10 HTTP/1.1" 200 -
+2025-06-17 15:09:00,268 - INFO - Calculando cobertura para raio de 5 km
+2025-06-17 15:09:00,291 - INFO - 127.0.0.1 - - [17/Jun/2025 15:09:00] "GET /cobertura?raio=5 HTTP/1.1" 200 -
+2025-06-17 15:09:03,081 - INFO - 127.0.0.1 - - [17/Jun/2025 15:09:03] "GET /sugerir_oficinas?raio=5 HTTP/1.1" 200 -
+2025-06-17 15:13:30,036 - INFO - 127.0.0.1 - - [17/Jun/2025 15:13:30] "GET / HTTP/1.1" 200 -
+2025-06-17 15:13:30,246 - INFO - 127.0.0.1 - - [17/Jun/2025 15:13:30] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2025-06-17 15:13:30,250 - INFO - 127.0.0.1 - - [17/Jun/2025 15:13:30] "[36mGET /static/logo2.png HTTP/1.1[0m" 304 -
+2025-06-17 15:13:30,549 - INFO - Calculando cobertura para raio de 15 km
+2025-06-17 15:13:30,617 - INFO - 127.0.0.1 - - [17/Jun/2025 15:13:30] "GET /cobertura?raio=15 HTTP/1.1" 200 -
+2025-06-17 15:13:53,904 - INFO - 127.0.0.1 - - [17/Jun/2025 15:13:53] "GET /clientes_heatmap HTTP/1.1" 200 -
+2025-06-17 15:13:57,975 - INFO - 127.0.0.1 - - [17/Jun/2025 15:13:57] "GET /sugerir_oficinas?raio=15 HTTP/1.1" 200 -
+2025-06-17 15:16:45,038 - INFO - Processando raio de 5km...
+2025-06-17 15:17:17,214 - INFO - Processando raio de 10km...
+2025-06-17 15:17:20,808 - INFO - Processando raio de 15km...
+2025-06-17 15:17:22,695 - INFO - Processando raio de 20km...
+2025-06-17 15:17:24,595 - INFO - Processando raio de 25km...
+2025-06-17 15:17:24,654 - INFO - Processando raio de 30km...
+2025-06-17 15:17:26,490 - INFO - 
+🚀 Aplicação pronta! Acesse http://0.0.0.0:10000
+2025-06-17 15:17:26,593 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:10000
+ * Running on http://192.168.1.166:10000
+2025-06-17 15:17:26,594 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-17 15:17:47,643 - INFO - 127.0.0.1 - - [17/Jun/2025 15:17:47] "GET / HTTP/1.1" 200 -
+2025-06-17 15:17:47,693 - INFO - 127.0.0.1 - - [17/Jun/2025 15:17:47] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2025-06-17 15:17:47,696 - INFO - 127.0.0.1 - - [17/Jun/2025 15:17:47] "[36mGET /static/logo2.png HTTP/1.1[0m" 304 -
+2025-06-17 15:17:47,787 - INFO - Calculando cobertura para raio de 15 km
+2025-06-17 15:17:47,818 - INFO - 127.0.0.1 - - [17/Jun/2025 15:17:47] "GET /cobertura?raio=15 HTTP/1.1" 200 -
+2025-06-17 15:17:49,083 - INFO - 127.0.0.1 - - [17/Jun/2025 15:17:49] "GET /sugerir_oficinas?raio=15 HTTP/1.1" 200 -
+2025-06-17 15:18:00,707 - INFO - Calculando cobertura para raio de 10 km
+2025-06-17 15:18:00,757 - INFO - 127.0.0.1 - - [17/Jun/2025 15:18:00] "GET /cobertura?raio=10 HTTP/1.1" 200 -
+2025-06-17 15:18:00,952 - INFO - Calculando cobertura para raio de 5 km
+2025-06-17 15:18:01,006 - INFO - 127.0.0.1 - - [17/Jun/2025 15:18:01] "GET /cobertura?raio=5 HTTP/1.1" 200 -
+2025-06-17 15:18:02,878 - INFO - 127.0.0.1 - - [17/Jun/2025 15:18:02] "GET /sugerir_oficinas?raio=5 HTTP/1.1" 200 -
